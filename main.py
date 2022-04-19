@@ -31,7 +31,7 @@ def choise_name(): # Выбор первого имени дракона и пр
   return result
 
 i = 1
-while i <= 20:
+while i <= 15:
   print(choise_name())
   i += 1 
   

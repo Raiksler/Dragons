@@ -32,8 +32,12 @@ def choise_name(): # Выбор первого имени дракона и пр
     
   return result
 
+
+l = open('logo.txt', 'r') #Вывод логотипа
+logo = l.read()
+print(logo, end='')
+
 i = 1
 while i <= 15:
-  print(choise_name())
+  print('| > ' + choise_name())
   i += 1 
-  

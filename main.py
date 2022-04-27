@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import names_data
 from place import place_select
 import random
